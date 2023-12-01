@@ -8,7 +8,7 @@ namespace Avaliacao
 {
     internal static class Palavra
     {
-        internal static Dictionary<string, string[]> palavrasPorTema = new Dictionary<string, string[]>()
+        private static Dictionary<string, string[]> palavrasPorTema = new Dictionary<string, string[]>()
         {
             { "Animais", new string[] { "Cachorro", "Gato", "Elefante", "Leão", "Pássaro", "Macaco" } },
             { "Frutas", new string[] { "Maçã", "Banana", "Uva", "Melancia", "Morango", "Abacaxi", "Pitanga" } },

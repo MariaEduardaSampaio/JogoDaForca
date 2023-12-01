@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        internal static bool VerificaAcerto(int letrasNaoDescobertas)
+        private static bool VerificaAcerto(int letrasNaoDescobertas)
         {
             return letrasNaoDescobertas == 0;
         }
